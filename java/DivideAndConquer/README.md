@@ -4,7 +4,7 @@ The main idea here is that we divide everything in conditional halves until we h
 
 A basic approach to this implementing a binary search algorithm.
 One assumption we will make is that our list is ordered. 
-One thing to notice abut this algrithm below is that our sample si.ze gets smaller
+One thing to notice abut this algrithm below is that our sample size gets smaller
 
 ```java
 public static boolean binarySearch(int[] arr, int target) {
