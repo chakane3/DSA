@@ -2,7 +2,6 @@ public class binarySearch {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         System.out.println(binarySearch(arr, 10));
-        
     }
 
     public static boolean binarySearch(int[] arr, int target) {
@@ -11,7 +10,6 @@ public class binarySearch {
         if(arr.length == 0) {
             return false;
         }
-        
 
         // here we want an the index of the first and last elements in the array
         int lowend = 0;
