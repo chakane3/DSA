@@ -1,8 +1,10 @@
 import Foundation
 
 class SetOperations {
+
+    // O(1) -
     static func findUnion(setObj set1: Set<Int>, setObj set2: Set<Int>) -> Set<Int> {
-        // works simi;lar to just throwing both set into an array
+        // works similar to just throwing both set into an array
         // then iterating over that array to see if our result set contains any elements in the array
         return set1.union(set2)
     }
